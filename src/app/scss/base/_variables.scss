@@ -1,0 +1,37 @@
+// Tipografia
+$fuentePrimary: 'Montserrat', sans-serif;
+$fuenteSecondary: "Titillium Web", sans-serif;
+
+//colores
+$verde: #cbec13;
+$verdeOscuro: #F53756;
+$negro: #000;
+$gris: #919191;
+$blanco: #ffffff;
+$grisClaro: #e6e6e6;
+
+// Links Cards
+$linkPortfolioCard: #3e0042;
+$linkDemo: #d90033;
+$linkGit: #009dae;
+
+
+// ==================== BREAKPOINTS ====================
+$mobilex: 375px !default;
+$mobilexl: 480px !default;
+$mobile: 576px !default;
+$tablet: 768px !default;
+$desktop: 992px !default;
+$desktopL: 1200px !default;
+$desktopLS: 1440px !default;
+$desktopXL: 1600px !default;
+$desktopXXL: 1920px !default;
+$desktopXXXL: 2000px !default;
+
+// ==================== FONT WEIGHTS ====================
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extrabold: 800;
