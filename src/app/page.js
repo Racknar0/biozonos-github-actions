@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          NextJS CI/CD withGitHub Actions.
+          Aplicacion de prueba integracion continua en VPS
         </p>
         <div>
           <a
