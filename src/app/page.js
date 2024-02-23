@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Aplicacion de prueba integracion continua en VPS
+          Hello con PM2
         </p>
         <div>
           <a
