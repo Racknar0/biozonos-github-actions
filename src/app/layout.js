@@ -6,7 +6,7 @@ import NavBar from "./layout/navbar/navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/index.scss";
 
-import BootstrapImport from "./imports/bootstrapImport"; 
+import BootstrapImport from "./imports/BootstrapImport"; 
 
 
 const inter = Inter({ subsets: ["latin"] });
