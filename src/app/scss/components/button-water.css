@@ -8,7 +8,7 @@
     --content: 'TEXTOTEXTOTEXTOTEXTO';
 }
 
-button {
+.button-water {
     position: relative;
     padding: 10px 20px;
     border: none;
@@ -30,13 +30,13 @@ button {
     height: 50px;
 }
 
-button:focus {
+.button-water:focus {
     outline-color: transparent;
     box-shadow: var(--btn-color) 2px 2px 22px;
 }
 
 .right::after,
-button::after {
+.button-water::after {
     content: var(--content);
     text-align: center;
     display: block;
@@ -50,7 +50,7 @@ button::after {
     pointer-events: none;
 }
 
-button::after {
+.button-water::after {
     font-weight: 200;
     top: -30px;
     left: -20px;
@@ -79,20 +79,20 @@ button::after {
     transform: translate(0, -90%) rotate(0deg);
 }
 
-button:hover .right::after {
+.button-water:hover .right::after {
     transform: translate(0, -47%) rotate(0deg);
 }
 
-button .right:hover::after {
+.button-water .right:hover::after {
     transform: translate(0, -50%) rotate(-7deg);
 }
 
-button .left:hover ~ .right::after {
+.button-water .left:hover ~ .right::after {
     transform: translate(0, -50%) rotate(7deg);
 }
 
 /* bubbles */
-button::before {
+.button-water::before {
     content: '';
     pointer-events: none;
     opacity: 0.6;

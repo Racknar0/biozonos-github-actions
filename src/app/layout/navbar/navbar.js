@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image';
 import '../../scss/components/nav.scss';
+import '../../scss/components/navbar-toggler.css';
 import { useEffect, useState } from 'react';
 
 const NavBar = () => {
@@ -32,14 +33,18 @@ const NavBar = () => {
   return (
 
         <nav className={`navbar navbar-expand-lg ${isScrolled ? 'scrolled' : 'not-scrolled'}`}>
+          
             <div className="container-fluid">
               <a href="#" className='d-lg-none'>
                 <div className='navbar_brand_container'>
                   <Image src="/logo.png" alt="logo" width={424} height={190} className='brand_logo' />
                 </div>
               </a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+              <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                {/* <span className="navbar-toggler-icon"></span> */}
+                <span className="toggler-icon top-bar"></span>
+                <span className="toggler-icon middle-bar"></span>
+                <span className="toggler-icon bottom-bar"></span>
               </button>
               <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul className="navbar-nav ">

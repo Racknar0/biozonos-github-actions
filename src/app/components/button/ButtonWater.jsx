@@ -8,11 +8,11 @@ const ButtonWater = () => {
                 //style="--content: 'Hover me!';"
                 style={{'--content': 'Más Info!'}}
                 href="https://twitter.com/kamildyrek"
-                className='button_water'
+                className='button-water'
             >
-                <div class="left"></div>
+                <div className="left"></div>
                     Más Información
-                <div class="right"></div>
+                <div className="right"></div>
             </button>
 
             <a target="_blank" href="https://twitter.com/kamildyrek">
