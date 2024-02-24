@@ -1,9 +1,136 @@
-nav {
-    ul {
-        display: flex;
+@import '../mixins/mixins';
+@import '../base/variables';
 
-        li {
-            margin: 0 10px;
+body {
+    nav.navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        font-size: 1.8rem;
+        background-color: transparent !important;
+        //degradado background vertical a transparente
+
+        &.not-scrolled {
+            /* fallback for old browsers */
+            background: #11afcb;
+          
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to bottom, #56949a, #11afcb00);
+          
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to bottom, #56949a, #11afcb00);
+          }
+
+        &.scrolled {
+            /* fallback for old browsers */
+            background: #11afcb;
+          
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to bottom, #56949a, #11afcbc0);
+          
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to bottom, #56949a, #11afcbc3);
+            box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        }
+    
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .nav-item {
+                margin: 0 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+    
+                &.dropdown {
+                    flex-direction: column;
+                    .dropdown-menu {
+                        background-color: $blanco;
+                        border: none;
+                        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+                        border-radius: 0;
+                        padding: 0;
+                        margin-top: 0;
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        border-top-left-radius: 0;
+                        border-top-right-radius: 0;
+    
+                        .dropdown-item {
+                            padding: 10px 20px;
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                            transition: all 0.3s ease;
+                            color: $negro;
+                            text-align: center;
+    
+                            &:hover {
+                                background-color: $grisClaro;
+                                color: $negro;
+                            }
+                        }
+                    }
+                }
+    
+    
+                .navbar_brand_container {
+                    width: 150px;
+    
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+    
+                .nav-link{
+                    color: $negro;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    font-family: "Montserrat", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    font-style: normal;
+    
+                    &:hover {
+                        color: $azul;
+    
+                        //Linea encima del link
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            width: 100%;
+                            height: 2px;
+                            background-color: $azul;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                
+                }
+            }
+        }
+    
+        .container-fluid {
+            .navbar_brand_container {
+                width: 150px;
+    
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
         }
     }
 }
+
+
