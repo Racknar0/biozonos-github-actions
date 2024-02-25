@@ -10,6 +10,10 @@ body {
         background-color: transparent !important;
         //degradado background vertical a transparente
 
+        @include media-query(desktop) { // $mobile: 576px
+            height: 100px;
+        }
+
         &.not-scrolled {
             /* fallback for old browsers */
             background: #11afcb;
@@ -26,10 +30,10 @@ body {
             background: #11afcb;
           
             /* Chrome 10-25, Safari 5.1-6 */
-            background: -webkit-linear-gradient(to bottom, #56949a, #11afcbc0);
+            background: -webkit-linear-gradient(to bottom, #56949a, #11afcb);
           
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            background: linear-gradient(to bottom, #56949a, #11afcbc3);
+            background: linear-gradient(to bottom, #56949a, #11afcb);
             box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
         }
     
@@ -72,8 +76,8 @@ body {
     
                         .dropdown-item {
                             padding: 10px 20px;
-                            font-size: 1.4rem;
-                            font-weight: 400;
+                            font-size: 2rem;
+                            font-weight: 600;
                             transition: all 0.3s ease;
                             color: $negro;
                             text-align: center;

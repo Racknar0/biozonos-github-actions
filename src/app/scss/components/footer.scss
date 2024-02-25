@@ -63,6 +63,8 @@
     .footer_main_container {
         background-color: #015871;
         position: relative; // Asegúrate de que el contenedor tenga una posición relativa para que los elementos posicionados absolutamente se ajusten correctamente
+        margin-top: -3px;
+        padding-top: 3px;
 
         .networks_container {
             display: flex;

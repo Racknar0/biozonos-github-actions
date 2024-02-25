@@ -17,7 +17,7 @@ const Services = () => {
 
     <div className="services_container">
       
-      <div className="service"  data-aos="fade-right">
+      <div className="service"  data-aos="fade-up">
         <Image src="/home/400x400.png" alt="service_image" objectPosition='right' width={400} height={400}  className="service_image"/>
         <h5 className="service_title">Purificadores de Agua</h5>
         <p className="service_description">Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>
@@ -26,7 +26,7 @@ const Services = () => {
         />
       </div>
 
-      <div className="service"  data-aos="fade-right">
+      <div className="service"  data-aos="fade-up">
         <Image src="/home/400x400.png" alt="service_image" objectPosition='right' width={400} height={400}  className="service_image" />
         <h5 className="service_title">Purificadores de Aire</h5>
         <p className="service_description">Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>
@@ -35,7 +35,7 @@ const Services = () => {
         />
       </div>
 
-      <div className="service" data-aos="fade-right">
+      <div className="service" data-aos="fade-up">
         <Image src="/home/400x400.png" alt="service_image" objectPosition='right' width={400} height={400}  className="service_image" />
         <h5 className="service_title">Bebederos de Ozono</h5>
         <p className="service_description">Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>

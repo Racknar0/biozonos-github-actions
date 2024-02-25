@@ -58,8 +58,8 @@ const NavBar = () => {
                     <ul className="dropdown-menu">
                       <li><a className="dropdown-item" href="/domestica/acrilico">Acrilico</a></li>
                       <li><a className="dropdown-item" href="/domestica/inox">Inox</a></li>
-                      <li><a className="dropdown-item" href="/domestica/touch">Touch</a></li>
                       <li><a className="dropdown-item" href="/domestica/vitro">Vitro</a></li>
+                      <li><a className="dropdown-item" href="/domestica/touch">Touch</a></li>
                     </ul>
                   </li>
                   <li className="nav-item">
