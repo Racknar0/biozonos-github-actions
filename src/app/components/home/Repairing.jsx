@@ -9,7 +9,7 @@ const Repairing = () => {
     <div className="repairing_container">
     <div className="repairing_image_container">
       <div className="overlay"></div>
-      <Image src="/home/plomero.png" alt="hero" objectPosition='right' width={1920} height={780}  className="repairing_image" />
+      <Image src="/home/plomero.png" alt="plomeria_sogamoso" objectPosition='right' width={1920} height={780}  className="repairing_image" />
     </div>
 
     <div className="repairing_text_box_container">

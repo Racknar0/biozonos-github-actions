@@ -17,7 +17,7 @@ const PopularProducts = () => {
                 <div className="popular_product" data-aos="fade-up">
                     <Image
                         src="/home/400x400_white.png"
-                        alt="hero"
+                        alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
                         height={400}
@@ -38,7 +38,7 @@ const PopularProducts = () => {
                 <div className="popular_product" data-aos="fade-up">
                     <Image
                         src="/home/400x400_white.png"
-                        alt="hero"
+                        alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
                         height={400}
@@ -59,7 +59,7 @@ const PopularProducts = () => {
                 <div className="popular_product" data-aos="fade-up">
                     <Image
                         src="/home/400x400_white.png"
-                        alt="hero"
+                        alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
                         height={400}
@@ -80,7 +80,7 @@ const PopularProducts = () => {
                 <div className="popular_product" data-aos="fade-up">
                     <Image
                         src="/home/400x400_white.png"
-                        alt="hero"
+                        alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
                         height={400}
@@ -101,7 +101,7 @@ const PopularProducts = () => {
                 <div className="popular_product" data-aos="fade-up">
                     <Image
                         src="/home/400x400_white.png"
-                        alt="hero"
+                        alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
                         height={400}

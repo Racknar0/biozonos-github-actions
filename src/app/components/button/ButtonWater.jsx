@@ -8,9 +8,6 @@ const ButtonWater = ({
     text
 }) => {
 
-    
-    console.log(text);
-
     return (
         <div className='button_water_container'>
             <button

@@ -28,87 +28,10 @@ export default function Home() {
       <IntroContainer />
       <Services />
       <div className="separator_container">
-        <Image src="/home/separator.png" alt="hero" objectPosition='right' width={1920} height={481}  className="separator" />
+        <Image src="/home/separator.png" alt="ozonos_sogamos_separator" objectPosition='right' width={1920} height={481}  className="separator" />
       </div>
       <Repairing />
       <PopularProducts />
-      
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div
-        data-aos="zoom-in" 
-        style={{
-          height: "200px",
-          backgroundColor: "red",
-          width: "400px",
-          overflow: "hidden",
-        }}
-      >
-
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }

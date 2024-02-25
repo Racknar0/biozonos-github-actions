@@ -1,0 +1,169 @@
+/* // best seen at 1500px or less */
+/*   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; */
+
+@import '../mixins/mixins';
+@import '../base/variables';
+
+.footer_container {
+    margin-top: -80px;
+    overflow: hidden;
+
+    .ocean_container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+
+        .ocean {
+            height: 10%;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #015871;
+
+            .wave {
+                background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
+                    repeat-x;
+                position: absolute;
+                width: 6400px;
+                top: -198px;
+                left: 0;
+                height: 198px;
+                transform: translate(0, 0, 0);
+                animation: wave 7s ease infinite;
+            }
+
+            .wave:nth-of-type(2) {
+                top: -168px;
+                animation: swell 4s ease infinite;
+                opacity: 1;
+            }
+        }
+
+        @keyframes wave {
+            0% {
+                margin-left: 0;
+            }
+            100% {
+                margin-left: -1600px;
+            }
+        }
+        @keyframes swell {
+            0%,
+            100% {
+                transform: translate(0, -30px);
+            }
+            50% {
+                transform: translate(0, 5px);
+            }
+        }
+    }
+
+    .footer_main_container {
+        background-color: #015871;
+        position: relative; // Asegúrate de que el contenedor tenga una posición relativa para que los elementos posicionados absolutamente se ajusten correctamente
+
+        .networks_container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .title_networks {
+                font-size: 2rem;
+                font-family: 'Montserrat', sans-serif;
+                color: #eafcfc;
+                text-align: center;
+                margin-bottom: 2rem;
+                font-weight: 400;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 100px;
+                    height: 2px;
+                    background-color: #eafcfc;
+                    margin: 0 auto;
+                    margin-top: 1rem;
+                }
+            }
+
+            .networks {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                .icon {
+                    width: 50px;
+                    height: 50px;
+
+                    fill: #eafcfc;
+                    color: #eafcfc;
+
+                    path {
+                        fill: #eafcfc;
+                        color: #eafcfc;
+                    }
+
+                    &.facebook {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    &.instagram {
+                        width: 35px;
+                        height: 35px;
+                        margin-right: 10px;
+                    }
+
+                    &.whatsapp {
+                        width: 35px;
+                        height: 35px;
+                    }
+
+                    &:hover {
+                        fill: #3b90ad;
+                        color: #3b90ad;
+
+                        path {
+                            fill: #3b90ad;
+                            color: #3b90ad;
+                        }
+                        transform: scale(1.1);
+                        transition: all 0.3s ease;
+                    }
+                }
+            }
+        }
+
+        .sub_nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-direction: column;
+            padding-bottom: 5rem;
+
+            @include media-query(tablet) {
+                flex-direction: row;
+            }
+
+            .link {
+                font-size: 1.5rem;
+                font-family: 'Montserrat', sans-serif;
+                color: #eafcfc;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 300;
+                display: inline-block;
+
+                &:hover {
+                    color: #3b90ad;
+                }
+            }
+        }
+    }
+}
