@@ -1,7 +1,16 @@
 
+"use client"
+
+
 import '../../scss/components/button-water.css'
 
-const ButtonWater = () => {
+const ButtonWater = ({
+    text
+}) => {
+
+    
+    console.log(text);
+
     return (
         <div className='button_water_container'>
             <button
@@ -11,7 +20,9 @@ const ButtonWater = () => {
                 className='button-water'
             >
                 <div className="left"></div>
-                    Más Información
+
+                        {text}
+
                 <div className="right"></div>
             </button>
 

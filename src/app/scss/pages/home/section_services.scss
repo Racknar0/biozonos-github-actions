@@ -1,0 +1,99 @@
+
+@import '../../mixins/mixins';
+@import '../../base/variables';
+
+
+.services{
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .services_title{
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: start;
+        color: #003373;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        text-shadow: #003373;
+        text-align: center;
+        margin-top: 7rem;
+    }
+
+    .services_subtitle{
+
+            font-size: 1.7rem;
+            font-family: "Noto Serif", serif;
+            text-align: start;
+            color: #3b90ad;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: #003373;
+            text-align: center;
+            margin-top: 2rem;
+        
+    }
+
+    .services_container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+
+        @include media-query(tablet) { // $desktop: 992px
+            flex-direction: row;
+            justify-content: center;
+            gap: 6rem;
+            flex-wrap: wrap;
+        }
+
+        .service{
+            max-width: 300px;
+
+            .service_image{
+                width: 300px;
+                height: 300px;
+                border-radius: 10px;
+                margin-bottom: 2rem;
+            }
+
+            .service_title{
+                font-size: 2rem;
+                font-family: 'Montserrat', sans-serif;
+                color: #003373;
+                font-weight: 600;
+                text-transform: capitalize;
+                text-shadow: #003373;
+                text-align: center;
+            }
+            
+            .service_description{
+                font-size: 1.6rem;
+                font-family: 'Poppins', sans-serif;
+                color: #515151;
+                line-height: 1.6;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+
+            .button_water_container{
+                position: relative;
+                top: auto;
+                left: auto;
+                right: auto;
+                bottom: auto;
+                transform: none;
+                padding-left: 20px;
+
+                button{
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

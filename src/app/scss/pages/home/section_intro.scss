@@ -1,0 +1,112 @@
+
+@import '../../mixins/mixins';
+@import '../../base/variables';
+
+
+
+.intro_main_container{
+    background-color: #eafcfc;
+    margin-top: -15rem;
+    padding-top: 15rem;
+    z-index: -1;
+    position: relative;
+
+    
+
+    .intro_container{
+        padding: 0 4rem;
+        max-width: 1200px;
+        padding-top: 4rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        padding-bottom: 5rem;
+
+
+        @include media-query(desktop) { // $desktop: 992px
+            flex-direction: row;
+            justify-content: center;
+            gap: 6rem;
+            padding-bottom: 0;
+        }  
+
+        h2 {
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            max-width: 700px;
+            text-align: start;
+            color: #003373;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            text-shadow: #003373;
+        }
+
+        h3 {
+            font-size: 1.7rem;
+            font-family: "Noto Serif", serif;
+            max-width: 700px;
+            text-align: start;
+            color: #3b90ad;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            text-shadow: #003373;
+        }
+
+        .main_text{
+            font-size: 1.6rem;
+            font-family: 'Poppins', sans-serif;
+            max-width: 700px;
+            text-align: start;
+            color: #515151;
+            line-height: 1.6;
+            letter-spacing: 1px;
+        }
+
+        .cita{
+            font-size: 1.6rem;
+            font-family: 'Londrina Outline', cursive;
+            max-width: 700px;
+            text-align: start;
+            color: #003373;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+
+        .cita_autor{
+            font-size: 1.6rem;
+            font-family: 'Londrina Outline', cursive;
+            max-width: 700px;
+            text-align: start;
+            color: #003373;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+
+        .cita_rol{
+            font-size: 1.6rem;
+            font-family: 'Londrina Outline', cursive;
+            max-width: 700px;
+            text-align: start;
+            color: #003373;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+        
+
+
+    
+        .intro_image_1{
+            display: block;
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
