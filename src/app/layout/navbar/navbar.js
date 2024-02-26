@@ -36,7 +36,7 @@ const NavBar = () => {
         <nav className={`navbar navbar-expand-lg ${isScrolled ? 'scrolled' : 'not-scrolled'}`}>
           
             <div className="container-fluid">
-              <Link href="#" className='d-lg-none'>
+              <Link href="/" className='d-lg-none'>
                 <div className='navbar_brand_container'>
                   <Image src="/logo.png" alt="logo" width={424} height={190} className='brand_logo' />
                 </div>

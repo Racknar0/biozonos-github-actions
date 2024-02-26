@@ -12,7 +12,9 @@ import './scss/pages/home/repairing.scss';
 import Repairing from './components/home/Repairing';
 import PopularProducts from './components/home/PopularProducts';
 
+
 export default function Home() {
+    
     return (
         <div
             className="hero_main_container"
@@ -20,6 +22,7 @@ export default function Home() {
                 overflow: 'hidden',
             }}
         >
+
             <h1 className="main_title title_section">
                 Purificadores de Agua y filtros de ozono en Sogamoso, Duitama,
                 Tunja y Boyacá

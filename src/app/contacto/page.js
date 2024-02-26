@@ -8,6 +8,12 @@ import { location } from 'react-icons-kit/icomoon/location';
 import { phone } from 'react-icons-kit/icomoon/phone';
 import {ic_alternate_email} from 'react-icons-kit/md/ic_alternate_email'
 
+
+export const metadata = {
+    title: "Biozonos | Contacto",
+    description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
+  };
+
 const page = () => {
     return (
         <div className="contacto_main_container">
@@ -40,7 +46,7 @@ const page = () => {
 
 
                 <div className='map_container'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15879.877141498435!2d-72.942503!3d5.7175633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a45dbd379fdcd%3A0x74a942e24b4fd40e!2sBIOZONOS!5e0!3m2!1ses-419!2sco!4v1708979202753!5m2!1ses-419!2sco" height="450" style={{border: '0'}} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15879.877141498435!2d-72.942503!3d5.7175633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a45dbd379fdcd%3A0x74a942e24b4fd40e!2sBIOZONOS!5e0!3m2!1ses-419!2sco!4v1708979202753!5m2!1ses-419!2sco" height="450" style={{border: '0'}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" 
                     ></iframe>
                 </div>
 
