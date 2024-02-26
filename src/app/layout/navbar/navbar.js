@@ -63,7 +63,7 @@ const NavBar = () => {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/nosotros">Línea Industrial</a>
+                    <a className="nav-link" href="/industrial">Línea Industrial</a>
                   </li>
                   <li className='d-none d-lg-block'>
                     <a href="#">

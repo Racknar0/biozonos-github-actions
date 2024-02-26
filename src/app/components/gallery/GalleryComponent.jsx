@@ -9,7 +9,7 @@ const GalleryComponent = ({images}) => {
         <ImageGallery 
             items={images}
             infinite={true}
-            thumbnailPosition='top'
+            thumbnailPosition='bottom'
             showBullets={true}
             showIndex={true}
             autoPlay={true}
