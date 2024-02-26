@@ -14,6 +14,8 @@ const GalleryComponent = ({images}) => {
             showIndex={true}
             autoPlay={true}
             disableSwipe={false}
+            slideInterval={6000}
+            slideDuration={1500}
         />
     );
 };

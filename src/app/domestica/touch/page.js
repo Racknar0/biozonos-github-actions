@@ -5,12 +5,11 @@ import GalleryComponent from '@/app/components/gallery/GalleryComponent'
 
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
-    thumbnailLabel: 'Ozono 1',
-    thumbnailAlt: 'Ozono 1',
+    original: "/products/touch/touch.jpg",
+    thumbnail: "/products/touch/touch.jpg",
+    thumbnailAlt: 'Touch',
     thumbnailClass: 'thumbnail',
-  },
+  }
 ];
 
 const page = () => {

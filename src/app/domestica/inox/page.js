@@ -7,68 +7,36 @@ const page = () => {
 
   const images = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
-      thumbnailLabel: 'Ozono 1',
-      thumbnailAlt: 'Ozono 1',
+      original: "/products/inox/vitro-inox.jpg",
+      thumbnail: "/products/inox/vitro-inox.jpg",
+      thumbnailAlt: 'Vitro Inox',
       thumbnailClass: 'thumbnail',
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
+      original: "/products/inox/inox-g.jpg",
+      thumbnail: "/products/inox/inox-g.jpg",
+      thumbnailAlt: 'Inox G',
       thumbnailClass: 'thumbnail',
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
+      original: "/products/inox/inox-m.jpg",
+      thumbnail: "/products/inox/inox-m.jpg",
+      thumbnailAlt: 'Inox M',
       thumbnailClass: 'thumbnail',
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
+      original: "/products/inox/inox-c.jpg",
+      thumbnail: "/products/inox/inox-c.jpg",
+      thumbnailAlt: 'Inox C',
       thumbnailClass: 'thumbnail',
-    },
+    }
+    ,
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
+      original: "/products/inox/miniacero.png",
+      thumbnail: "/products/inox/miniacero.png",
+      thumbnailAlt: 'Inox C',
       thumbnailClass: 'thumbnail',
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
-      thumbnailClass: 'thumbnail',
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
-      thumbnailClass: 'thumbnail',
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
-      thumbnailClass: 'thumbnail',
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-      thumbnailLabel: 'Ozono 2',
-      thumbnailAlt: 'Ozono 2',
-      thumbnailClass: 'thumbnail',
-    },
+    }
   ];
 
   return (
