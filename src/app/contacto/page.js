@@ -22,7 +22,7 @@ const page = () => {
 
                 <ul className="list-unstyled text-center mb-4">
                     <li className="info">
-                        <Icon size={25} icon={phone} /> +57 323 364 2951
+                        <Icon size={25} icon={phone} /> <a href="https://wa.me/573233642951" target="_blank" rel="noopener noreferrer">+57 323 364 2951</a>
                     </li>
 
                     <li className="info">
@@ -37,9 +37,18 @@ const page = () => {
                     
                     <li className="info all">¡Servicio en Todo Boyacá!</li>
                 </ul>
+
+
+                <div className='map_container'>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15879.877141498435!2d-72.942503!3d5.7175633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a45dbd379fdcd%3A0x74a942e24b4fd40e!2sBIOZONOS!5e0!3m2!1ses-419!2sco!4v1708979202753!5m2!1ses-419!2sco" height="450" style={{border: '0'}} allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    ></iframe>
+                </div>
+
                 <p className="info plus">
                     Contactanos también por nuestras redes sociales
                 </p>
+
+                
                 <div className="icons_container">
                     <a href="#" className="">
                         <Icon size={50} icon={ic_facebook} />
@@ -51,6 +60,7 @@ const page = () => {
                         <Icon size={50} icon={whatsapp} />
                     </a>
                 </div>
+
             </div>
         </div>
     );

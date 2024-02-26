@@ -6,13 +6,17 @@ import Image from 'next/image';
 const page = () => {
     return (
         <div className="nosotros_main_container">
-            <Breadcrumbs link="/domestica/acrilico" nombre="Acrílico" />
+            <Breadcrumbs link="/nosotros" nombre="Nosotros" />
 
             <div className="title_container">
                 <h1 className="title">Acerca de Nosotros</h1>
             </div>
 
             <div className="description_container">
+                <div className='image_container'>
+                    <Image src="/logo.png" alt="imagen_nosotros" width={424} height={190} className="image" />
+                </div>
+
                 <p className="description" data-aos="fade-up">
                     BIOZONOS una empresa creada en la ciudad de Sogamoso, Boyacá
                     dedicada a la fabricación y prestación de servicios de

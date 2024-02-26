@@ -8,6 +8,7 @@ import "./scss/index.scss";
 
 import BootstrapImport from "./imports/BootstrapImport"; 
 import AOSImport from "./imports/AOSImport";
+import BtnWhsatpp from "./components/BtnWhsatpp/BtnWhsatpp";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+        <BtnWhsatpp />
 
         
        <BootstrapImport />

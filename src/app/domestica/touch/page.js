@@ -15,13 +15,13 @@ const images = [
 const page = () => {
   return (
     <div className="acrilico_main_container">
-      <Breadcrumbs link="/domestica/touch" nombre="Acero Inoxidable" />
+      <Breadcrumbs link="/domestica/touch" nombre="Touch" />
       <div className='hero_container'>
         <div className='overlay'></div>
         <Image src="/products/cocina_futuro.png" alt="imagen_cocina" width={1920} height={581}  className="image" />
         <div className="hero_text">
           <h1 className='hero_title'>Equipos con tecnología Touch</h1>
-          <p className='hero_description'>Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>
+          <p className='hero_description'>Descubre la innovación en purificación de agua con nuestro equipo de ozono con panel de cristal y botón táctil. Diseñado para brindar comodidad y eficiencia, este equipo combina tecnología de vanguardia con un diseño elegante. Disfruta de agua purificada al alcance de tu mano con solo tocar un botón, garantizando la calidad y frescura que tu hogar o negocio merece.</p>
         </div>
       </div>
       <div className='gallery_container'>
@@ -29,6 +29,7 @@ const page = () => {
       </div>
       <div className='characteristic_container'>
             <h2 className='characteristic_title'>Características</h2>
+            <p className='characteristic_description'>La serie Touch Technology en purificadores de agua, con panel touch frontal alto higiene “Requisito INVIMA” satisface todas las necesidades El agua ozonizada cuenta con muchos beneficios para la salud.</p>
             <p className='characteristic_description'>Estos equipos son ideales para la purificación de agua en tu hogar, con la más alta tecnología y los más altos estándares de calidad, garantizamos un alto desempeño en nuestros equipos.</p>
             <p className='characteristic'>- Capacidad de purificación de 10 litros por minuto</p>
             <p className='characteristic'>- Material de alta calidad en acrílico</p>

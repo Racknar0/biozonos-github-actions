@@ -34,7 +34,7 @@ const page = () => {
         <Image src="/products/cocina_vitro.png" alt="imagen_cocina" width={1920} height={581}  className="image" />
         <div className="hero_text">
           <h1 className='hero_title'>Equipos vitrificados</h1>
-          <p className='hero_description'>Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>
+          <p className='hero_description'>Experimenta la excelencia en purificación de agua con nuestro equipo de ozono en cristal. Diseñado para ofrecer la máxima calidad y durabilidad, nuestro equipo proporciona una purificación eficiente y confiable. Disfruta del agua más pura y cristalina en tu hogar o negocio con nuestra solución elegante y moderna.</p>
         </div>
       </div>
       <div className='gallery_container'>
@@ -42,6 +42,7 @@ const page = () => {
       </div>
       <div className='characteristic_container'>
             <h2 className='characteristic_title'>Características</h2>
+            <p className='characteristic_description'>La serie Acero en purificadores de agua, semi industriales Vitro de alto higiene “Requisito INVIMA” satisface todas las necesidades El agua ozonizada cuenta con muchos beneficios para la salud.</p>
             <p className='characteristic_description'>Estos equipos son ideales para la purificación de agua en tu hogar, con la más alta tecnología y los más altos estándares de calidad, garantizamos un alto desempeño en nuestros equipos.</p>
             <p className='characteristic'>- Capacidad de purificación de 10 litros por minuto</p>
             <p className='characteristic'>- Material de alta calidad en acrílico</p>
