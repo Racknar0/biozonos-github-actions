@@ -1,0 +1,69 @@
+@import '../../mixins/mixins';
+@import '../../base/variables';
+
+.nosotros_main_container{
+    margin-bottom: 5rem;
+
+    .title_container{
+        width: 100%;
+        height: 25rem;
+        background: rgb(34,86,195);
+        background: linear-gradient(0deg, rgba(34,86,195,0) 0%, rgba(35,100,199,1) 9%, rgba(36,168,190,1) 100%, rgba(45,253,240,1) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .title{
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            text-align: start;
+            color: #ffffff;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            text-shadow: #003373;
+            text-align: center;
+            
+
+            @include media-query(tablet) { 
+                font-size: 5rem;
+            }
+        }
+    }
+
+    .description_container{
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        margin-top: -6rem;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+        .description{
+            font-size: 1.6rem;
+            font-family: 'Poppins', sans-serif;
+            color: #515151;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            text-align: justify;
+            margin-bottom: 3rem;
+        }
+
+        .button_water_container{
+            position: relative;
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            margin: 0 auto;
+            display: block;
+
+            button{
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}
+

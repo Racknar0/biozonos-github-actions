@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../scss/components/breadcumbs.scss'
+import Link from 'next/link';
 
 const Breadcrumbs = ( {link, nombre} ) => {
   return (
     <div className="breadcrumbs">
-        <a href="/">Inicio</a>
+        <Link href="/">Inicio</Link>
         <span> / </span>
-        <a href={link }> {nombre}</a>
+        <Link href={link }> {nombre}</Link>
     </div>
   );
 };

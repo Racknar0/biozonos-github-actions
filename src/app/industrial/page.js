@@ -6,7 +6,7 @@ import '../scss/pages/industrial/industrial.scss';
 const page = () => {
     return (
         <div className="industrial_main_container">
-            <Breadcrumbs link="/domestica/acrilico" nombre="Acrílico" />
+            <Breadcrumbs link="/industrial" nombre="Línea Industrial" />
             <div className="main_info">
                 <h1 className="main_info_title">Línea Industrial</h1>
                 <p className='description'>
@@ -155,7 +155,7 @@ const page = () => {
                     <li>Flujo continuo hasta 8 Lt s/m</li>
                 </ul>
 
-                <p className='description text-center fw-bold'>❤️Bebe bien, vive sano.❤️</p>
+                <p className='description text-center fw-bold'>Vive bien, Bebe sano.❤️</p>
             </div>
             
         </div>

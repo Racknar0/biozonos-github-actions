@@ -3,6 +3,7 @@ import Image from 'next/image';
 import '../../scss/components/nav.scss';
 import '../../scss/components/navbar-toggler.css';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 const NavBar = () => {
 
@@ -35,11 +36,11 @@ const NavBar = () => {
         <nav className={`navbar navbar-expand-lg ${isScrolled ? 'scrolled' : 'not-scrolled'}`}>
           
             <div className="container-fluid">
-              <a href="#" className='d-lg-none'>
+              <Link href="#" className='d-lg-none'>
                 <div className='navbar_brand_container'>
                   <Image src="/logo.png" alt="logo" width={424} height={190} className='brand_logo' />
                 </div>
-              </a>
+              </Link>
               <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 {/* <span className="navbar-toggler-icon"></span> */}
                 <span className="toggler-icon top-bar"></span>
@@ -49,37 +50,37 @@ const NavBar = () => {
               <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul className="navbar-nav ">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+                    <Link className="nav-link active" aria-current="page" href="/">Inicio</Link>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Línea Hogar
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="/domestica/acrilico">Acrilico</a></li>
-                      <li><a className="dropdown-item" href="/domestica/inox">Inox</a></li>
-                      <li><a className="dropdown-item" href="/domestica/vitro">Vitro</a></li>
-                      <li><a className="dropdown-item" href="/domestica/touch">Touch</a></li>
+                      <li><Link className="dropdown-item" href="/domestica/acrilico">Acrilico</Link></li>
+                      <li><Link className="dropdown-item" href="/domestica/inox">Inox</Link></li>
+                      <li><Link className="dropdown-item" href="/domestica/vitro">Vitro</Link></li>
+                      <li><Link className="dropdown-item" href="/domestica/touch">Touch</Link></li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/industrial">Línea Industrial</a>
+                    <Link className="nav-link" href="/industrial">Línea Industrial</Link>
                   </li>
                   <li className='d-none d-lg-block'>
-                    <a href="#">
+                    <Link href="#">
                       <div className='navbar_brand_container'>
                         <Image src="/logo.png" alt="logo" width={424} height={190} className='brand_logo' />
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/nosotros">Nosotros</a>
+                    <Link className="nav-link" href="/servicios">Servicios</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/nosotros">Servicios</a>
+                    <Link className="nav-link" href="/nosotros">Nosotros</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/contacto">Contacto</a>
+                    <Link className="nav-link" href="/contacto">Contacto</Link>
                   </li>
                 </ul>
               </div>

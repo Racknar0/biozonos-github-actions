@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import '../../scss/components/footer.scss';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -78,10 +79,10 @@ const Footer = () => {
                 <div className='sub_nav'
                   data-aos=""
                 >
-                        <a href="#" className='link'>Inicio</a>
-                        <a href="#" className='link'>Productos</a>
-                        <a href="#" className='link'>Servicios</a>
-                        <a href="#" className='link'>Contacto</a>
+                        <Link href="#" className='link'>Inicio</Link>
+                        <Link href="#" className='link'>Productos</Link>
+                        <Link href="#" className='link'>Servicios</Link>
+                        <Link href="#" className='link'>Contacto</Link>
                 </div>
             </div>
         </div>
