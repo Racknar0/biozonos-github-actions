@@ -6,7 +6,7 @@ import GalleryComponent from '@/app/components/gallery/GalleryComponent';
 
 
 export const metadata = {
-  title: "Biozonos | Puricadores Acero Inoxidable",
+  title: "Biozonos | Acero Inoxidable",
   description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
 };
 

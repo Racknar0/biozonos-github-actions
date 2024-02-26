@@ -11,7 +11,7 @@ import {ic_alternate_email} from 'react-icons-kit/md/ic_alternate_email'
 
 export const metadata = {
     title: "Biozonos | Contacto",
-    description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
+    description: "Telefono, dirección y redes sociales de Biozonos",
   };
 
 const page = () => {
@@ -24,7 +24,11 @@ const page = () => {
                     Puedes ubicarnos con los siguientes Datos ya que...
                 </h2>
 
-                <p className="subtitle">¡Estamos aquí para ayudarte!</p>
+                <h3 className='position-absolute opacity-0'>Telefono Biozonos: 3233642951</h3>
+                <h3 className='position-absolute opacity-0'>Correo Biozonos: biozonosco@gmail.com </h3>
+                <h3 className='position-absolute opacity-0'>Dirección Biozonos: Cra 26 # 6A – 26, Sogamoso – Boyaca</h3>
+
+                <p className="subtitle mb-4">¡Estamos aquí para ayudarte!</p>
 
                 <ul className="list-unstyled text-center mb-4">
                     <li className="info">

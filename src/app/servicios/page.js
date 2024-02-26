@@ -4,6 +4,12 @@ import Image from 'next/image';
 import '../scss/pages/servicios/servicios.scss';
 import ButtonWater from '../components/button/ButtonWater';
 
+
+export const metadata = {
+    title: "Biozonos | Servicios",
+    description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
+  };
+
 const page = () => {
     return (
         <div className="servicios_main_container">

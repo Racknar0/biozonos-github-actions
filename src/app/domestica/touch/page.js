@@ -13,7 +13,7 @@ const images = [
 ];
 
 export const metadata = {
-  title: "Biozonos | Puricadores Touch",
+  title: "Biozonos | Touch",
   description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
 };
 

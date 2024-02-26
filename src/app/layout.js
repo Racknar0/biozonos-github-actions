@@ -14,7 +14,7 @@ import BtnWhsatpp from "./components/BtnWhsatpp/BtnWhsatpp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Biozonos | Vive bien, Bebe sano",
+  title: "Biozonos | Inicio",
   description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
 };
 

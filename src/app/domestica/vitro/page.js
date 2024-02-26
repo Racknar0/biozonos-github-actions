@@ -26,7 +26,7 @@ const images = [
 ];
 
 export const metadata = {
-  title: "Biozonos | Puricadores Vitro",
+  title: "Biozonos | Vitro",
   description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
 };
 
