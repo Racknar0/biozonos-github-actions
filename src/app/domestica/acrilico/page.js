@@ -43,8 +43,8 @@ const images = [
     thumbnailClass: 'thumbnail',
   },
   {
-    original: "/products/acrilico/GOTA.jpg",
-    thumbnail: "/products/acrilico/GOTA.jpg",
+    original: "/products/acrilico/gota.jpg",
+    thumbnail: "/products/acrilico/gota.jpg",
     thumbnailAlt: 'Gota',
     thumbnailClass: 'thumbnail',
   },
