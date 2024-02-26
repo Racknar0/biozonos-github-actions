@@ -12,13 +12,13 @@ const IntroContainer = () => {
           <Image src="/home/girl.png" alt="purificador_niña_hero_image" objectPosition='right' width={457} height={837}  className="intro_image_1" data-aos="fade-up"/>
 
           <div className="box_text">
-            <h2
+            <h2 className='title_section'
               data-aos="fade-up"
             >¡Cuida a los más importantes!</h2>
-            <h3
+            <h3 className="subtitle_section"
               data-aos="fade-up"
             >Purificadores de Agua Ozonos en Sogamoso, Duitama, Tunja y Boyacá</h3>
-            <p className="main_text"
+            <p className="main_text standard_text_section"
               data-aos="fade-up"
             >Contamos con equipos de última tecnología para la purificación de aguas/aire en tu casa, equipos modernos diseñados con los más altos estándares para garantizar un alto desempeño.</p>
             <p className="cita"

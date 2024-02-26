@@ -20,7 +20,7 @@ export default function Home() {
                 overflow: 'hidden',
             }}
         >
-            <h1 className="main_title">
+            <h1 className="main_title title_section">
                 Purificadores de Agua y filtros de ozono en Sogamoso, Duitama,
                 Tunja y Boyacá
             </h1>

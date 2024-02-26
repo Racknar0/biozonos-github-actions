@@ -37,25 +37,6 @@
             @include media-query(tablet) {
                 max-width: 1200px;
             }
-
-            .hero_title {
-                font-size: 3rem;
-                font-family: 'Montserrat', sans-serif;
-                color: #fff;
-                font-weight: 600;
-                text-transform: capitalize;
-                text-shadow: #003373;
-                margin-bottom: 1rem;
-            }
-
-            .hero_description {
-                font-size: 1.6rem;
-                font-family: 'Poppins', sans-serif;
-                color: #fff;
-                line-height: 1.6;
-                letter-spacing: 1px;
-                margin-bottom: 2rem;
-            }
         }
     }
 
@@ -65,36 +46,30 @@
         margin-top: 5rem;
         padding: 0 1rem;
 
+
+
         .description_title {
-            font-size: 3rem;
-            font-family: 'Montserrat', sans-serif;
             text-align: start;
-            color: #003373;
-            font-weight: 800;
-            letter-spacing: 2px;
             text-transform: capitalize;
-            text-shadow: #003373;
             text-align: center;
             margin-top: 7rem;
             margin-bottom: 3rem;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .description_description {
-            font-size: 1.6rem;
-            font-family: 'Poppins', sans-serif;
-            color: #515151;
-            line-height: 1.6;
-            letter-spacing: 1px;
-        }
     }
 
     .grid_container {
         max-width: 1000px;
         margin: 0 auto;
         margin-top: 5rem;
+        justify-content: center;
 
         .grid_item_container {
             padding: 1rem;
+            max-width: 400px;
 
             .grid_item {
                 margin-bottom: 2rem;
@@ -102,6 +77,7 @@
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                 transition: all 0.3s ease-in-out;
+                
 
                 &:hover {
                     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -126,20 +102,11 @@
                     text-align: center;
 
                     .grid_title {
-                        font-size: 2rem;
-                        font-family: 'Montserrat', sans-serif;
-                        color: #333;
-                        font-weight: 600;
-                        text-transform: capitalize;
-                        margin-bottom: 1rem;
+
                     }
 
                     .grid_description {
-                        font-size: 1.6rem;
-                        font-family: 'Poppins', sans-serif;
-                        color: #333;
-                        line-height: 1.6;
-                        letter-spacing: 1px;
+
                     }
                 }
             }

@@ -40,4 +40,73 @@ body {
 
         }
     }
+
+
+    .title_section{
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #003373;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-shadow: #003373;
+        position: relative;
+
+        &:after{
+            //Linea
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #003373;
+            top: 100%;
+            left: 0;
+            z-index: -1;
+        }
+    }
+
+    .title_small{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #003373;
+        font-weight: 600;
+        text-shadow: #003373;
+    }
+
+    .subtitle_section{
+        font-size: 1.7rem;
+        font-family: 'Noto Serif', serif;
+        color: #3b90ad;
+        letter-spacing: 2px;
+        text-shadow: #003373;
+        margin-top: 2rem;
+    }
+
+    .standard_text_section{
+        font-size: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+        color: #515151;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+
+    .hero_title {
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: #003373;
+        margin-bottom: 1rem;
+    }
+
+    .hero_description {
+        font-size: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
 }

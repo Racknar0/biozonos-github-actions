@@ -37,23 +37,21 @@
             border-radius: 10px;
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
             margin-bottom: 2rem;
+            max-width: 600px;
+
 
             .repairing_title{
-                font-size: 3rem;
-                font-family: 'Montserrat', sans-serif;
-                color: #003373;
-                font-weight: 600;
-                text-transform: capitalize;
-                text-shadow: #003373;
-                margin-bottom: 1rem;
+                max-width: 400px;
+                text-align: center;
+                margin-bottom: 2rem;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 2.7rem;
+
+                
             }
 
             .repairing_description{
-                font-size: 1.6rem;
-                font-family: 'Poppins', sans-serif;
-                color: #515151;
-                line-height: 1.6;
-                letter-spacing: 1px;
                 margin-bottom: 2rem;
             }
 

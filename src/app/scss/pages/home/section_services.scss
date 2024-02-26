@@ -7,27 +7,22 @@
     max-width: 1200px;
     margin: 0 auto;
 
+
+
     .services_title {
-        font-size: 3rem;
-        font-family: 'Montserrat', sans-serif;
         text-align: start;
-        color: #003373;
-        font-weight: 800;
         letter-spacing: 2px;
-        text-transform: capitalize;
-        text-shadow: #003373;
         text-align: center;
         margin-top: 7rem;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .services_subtitle {
-        font-size: 1.7rem;
-        font-family: 'Noto Serif', serif;
         text-align: start;
-        color: #3b90ad;
-        letter-spacing: 2px;
         text-transform: uppercase;
-        text-shadow: #003373;
         text-align: center;
         margin-top: 2rem;
     }
@@ -66,21 +61,11 @@
             }
 
             .service_title {
-                font-size: 2rem;
-                font-family: 'Montserrat', sans-serif;
-                color: #003373;
-                font-weight: 600;
                 text-transform: capitalize;
-                text-shadow: #003373;
                 text-align: center;
             }
 
             .service_description {
-                font-size: 1.6rem;
-                font-family: 'Poppins', sans-serif;
-                color: #515151;
-                line-height: 1.6;
-                letter-spacing: 1px;
                 text-align: center;
             }
 

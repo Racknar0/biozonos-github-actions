@@ -9,27 +9,19 @@
         margin: 0 auto;
         padding: 0 3rem;
 
+
         .main_info_title {
-            font-size: 3rem;
-            font-family: 'Montserrat', sans-serif;
             text-align: start;
-            color: #003373;
-            font-weight: 800;
-            letter-spacing: 2px;
             text-transform: capitalize;
-            text-shadow: #003373;
             text-align: center;
             margin-top: 7rem;
             margin-bottom: 3rem;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .description {
-            font-size: 1.6rem;
-            font-family: 'Poppins', sans-serif;
-            color: #515151;
-            line-height: 1.6;
-            letter-spacing: 1px;
-        }
+
 
         ul {
             padding: 0;
@@ -39,11 +31,6 @@
             margin-bottom: 3rem;
 
             li {
-                font-size: 1.6rem;
-                font-family: 'Poppins', sans-serif;
-                color: #515151;
-                line-height: 1.6;
-                letter-spacing: 1px;
                 margin-bottom: 1rem;
             }
         
@@ -67,17 +54,14 @@
             margin-bottom: 5rem;
             padding-bottom: 3rem;
             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            
+        
+
 
             .gallery_section_title{
-                font-size: 2rem;
-                font-family: 'Montserrat', sans-serif;
                 text-align: start;
-                color: #003373;
                 font-weight: 800;
                 letter-spacing: 2px;
                 text-transform: capitalize;
-                text-shadow: #003373;
                 text-align: center;
                 margin-top: 7rem;
                 margin-bottom: 3rem;
@@ -101,6 +85,13 @@
                     margin-bottom: 2rem;
                     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
                     border: 1px solid #848484;
+                    cursor: pointer;
+
+                    &:hover{
+                        transform: scale(1.05);
+                        transition: all 1s ease;
+                        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+                    }
                 }
             }
         }
@@ -112,13 +103,7 @@
         margin: 0 auto;
         padding: 0 3rem;
 
-        .description {
-            font-size: 1.6rem;
-            font-family: 'Poppins', sans-serif;
-            color: #515151;
-            line-height: 1.6;
-            letter-spacing: 1px;
-        }
+
 
         ul {
             padding: 0;
@@ -128,11 +113,6 @@
             margin-bottom: 3rem;
 
             li {
-                font-size: 1.6rem;
-                font-family: 'Poppins', sans-serif;
-                color: #515151;
-                line-height: 1.6;
-                letter-spacing: 1px;
                 margin-bottom: 1rem;
             }
         

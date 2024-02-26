@@ -13,12 +13,8 @@
         transform: translate(-50%, -50%);
         text-align: center;
         color: #003373;
-        font-family: "Montserrat", sans-serif;
         font-size: 2rem;
-        letter-spacing: 2px;
-        font-weight: 800;
         text-transform: uppercase;
-        text-shadow: #003373;
         z-index: 1;
 
         @include media-query(mobilexs) { // $mobilexs: 320px
@@ -31,7 +27,7 @@
          
         }            
         @include media-query(mobile) { // $mobile: 576px
-         
+            font-size: 3rem;
         }            
         @include media-query(tablet) { // $tablet: 768px
         }            
@@ -51,6 +47,16 @@
         @include media-query(desktopXXL) { // $desktopXXL: 1920px
          
         }
+
+        //Remover el before y after
+        &::before, &::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(254, 254, 254, 0);
+            z-index: -1;
+        }
     }
 
     .button_water_container{
@@ -62,7 +68,7 @@
         z-index: 1;
 
         @include media-query(tablet) { // $tablet: 768px
-            top: 300px;
+            top: 350px;
         }   
     }
 
