@@ -9,25 +9,25 @@ const page = () => {
             <Breadcrumbs link="/domestica/acrilico" nombre="Acrílico" />
 
             <div className="title_container">
-                <h1 className="title">¿Quien es Biozonos?</h1>
+                <h1 className="title">Acerca de Nosotros</h1>
             </div>
 
             <div className="description_container">
-                <p className="description">
+                <p className="description" data-aos="fade-up">
                     BIOZONOS una empresa creada en la ciudad de Sogamoso, Boyacá
                     dedicada a la fabricación y prestación de servicios de
                     mantenimientos y reparaciones de equipos purificadores de
                     agua con base en ozono.
                 </p>
 
-                <p className="description">
+                <p className="description" data-aos="fade-up">
                     Iniciamos como distribuidores y llegamos a fabricar
                     productos orientados al bienestar y la salud de las personas
                     en el sector residencial e industrial donde requiera agua
                     purificada.
                 </p>
 
-                <p className="description">
+                <p className="description" data-aos="fade-up">
                     Hemos llegado a conquistar clientes en todas las ciudades de
                     la Región Caribe, y en ciudades del interior como Bogotá,
                     Bucaramanga, Cúcuta, Villavicencio entre otras. En nuestro
@@ -39,7 +39,7 @@ const page = () => {
                     destinada para consumo humano.
                 </p>
 
-                <p className="description">
+                <p className="description" data-aos="fade-up">
                     Además, siempre buscamos proporcionar a nuestros clientes y
                     consumidores finales un producto hecho dentro de los
                     parámetros de calidad confiable. BIOZONOS, ha ido siempre, y
@@ -48,9 +48,14 @@ const page = () => {
                     repuestos originales.
                 </p>
 
-                <ButtonWater 
-                  text={"Conoce más"}
+                <div data-aos="fade-up">
+                <ButtonWater
+                
+                text="Más información"
+                isExternal={true}
+                href="https://wa.me/573233642951"
                 />
+                </div>
             </div>
         </div>
     );

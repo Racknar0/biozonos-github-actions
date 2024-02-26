@@ -10,6 +10,7 @@
     padding-bottom: 5rem;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 5rem;
 
     .popular_product_title{
         font-size: 3rem;
@@ -21,7 +22,7 @@
         text-transform: capitalize;
         text-shadow: #003373;
         text-align: center;
-        margin-top: 7rem;
+        margin-top: 0rem;
     }
 
     .popular_product_subtitle{
@@ -62,6 +63,13 @@
                 border-radius: 10px;
                 margin-bottom: 2rem;
                 box-shadow: 10px 0 40px 0 rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all 1s ease;
+                    box-shadow: 10px 0 40px 0 rgba(0, 0, 0, 0.3);
+                }
             }
 
             .popular_product_title{

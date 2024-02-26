@@ -18,7 +18,7 @@ const Repairing = () => {
       >
         <h2 className="repairing_title">Reparación de purificadores de agua</h2>
         <p className="repairing_description">Contamos con un equipo de técnicos especializados en la reparación de purificadores de agua, con años de experiencia en el sector, garantizamos un servicio de calidad y confianza.</p>
-        <ButtonWater text="Conoce más" />
+        <ButtonWater text="¡Conoce más!" isExternal={false} href="/contacto" />
       </div>
     </div>
 </div>

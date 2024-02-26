@@ -14,7 +14,7 @@ const IntroContainer = () => {
           <div className="box_text">
             <h2
               data-aos="fade-up"
-            >Cuida a los más imporantes</h2>
+            >¡Cuida a los más importantes!</h2>
             <h3
               data-aos="fade-up"
             >Purificadores de Agua Ozonos en Sogamoso, Duitama, Tunja y Boyacá</h3>

@@ -79,10 +79,26 @@ const Footer = () => {
                 <div className='sub_nav'
                   data-aos=""
                 >
-                        <Link href="#" className='link'>Inicio</Link>
-                        <Link href="#" className='link'>Productos</Link>
-                        <Link href="#" className='link'>Servicios</Link>
-                        <Link href="#" className='link'>Contacto</Link>
+                        <Link href="/" className='link'>Inicio</Link>
+                        <Link href="/nosotros" className='link'>Nosotros</Link>
+                        <Link href="/servicios" className='link'>Servicios</Link>
+                        <Link href="/contacto" className='link'>Contacto</Link>
+                </div>
+
+                <div className='rights_container'>
+                    <p className='rights'>
+                        © 2024 Biozonos - Ozonos Sogamoso. Todos los derechos reservados.
+                    </p>
+                    <p className='developer'>
+                        Desarrollado por{' '}
+                        <a
+                            href="https://j-torres.netlify.app/"
+                            target="_blank"
+                            className="link"
+                        >
+                            Jonathan Camilo Torres
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>

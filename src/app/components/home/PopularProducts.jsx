@@ -16,7 +16,7 @@ const PopularProducts = () => {
             <div className="popular_products_container">
                 <div className="popular_product" data-aos="fade-up">
                     <Image
-                        src="/home/400x400_white.png"
+                        src="/home/bugia.jpg"
                         alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
@@ -24,20 +24,17 @@ const PopularProducts = () => {
                         className="popular_product_image"
                     />
                     <h5 className="popular_product_title">
-                        Purificadores de Agua
+                        Reemplazo Filtro Bugía AP200
                     </h5>
                     <p className="popular_product_description">
-                        Contamos con equipos de última tecnología para la
-                        purificación de aguas/aire en tu casa, equipos modernos
-                        diseñados con los más altos estándares para garantizar
-                        un alto desempeño.
+                        Repuesto para filtro, bugía AP-200 con 3 meses de garantía e instalación en tu domicilio.
                     </p>
-                    <ButtonWater text="Conoce más" />
+                    <ButtonWater text="Comprar" isExternal={true} href="https://wa.me/573233642951" />
                 </div>
 
                 <div className="popular_product" data-aos="fade-up">
                     <Image
-                        src="/home/400x400_white.png"
+                        src="/home/gravedad.jpg"
                         alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
@@ -45,20 +42,17 @@ const PopularProducts = () => {
                         className="popular_product_image"
                     />
                     <h5 className="popular_product_title">
-                        Purificadores de Agua
+                        Equipo de purificación de gravedad
                     </h5>
                     <p className="popular_product_description">
-                        Contamos con equipos de última tecnología para la
-                        purificación de aguas/aire en tu casa, equipos modernos
-                        diseñados con los más altos estándares para garantizar
-                        un alto desempeño.
+                        Equipo completo de purificación de agua domestico de gravedad, con 6 meses de garantía.
                     </p>
-                    <ButtonWater text="Conoce más" />
+                    <ButtonWater text="Comprar" isExternal={true} href="https://wa.me/573233642951" />
                 </div>
 
                 <div className="popular_product" data-aos="fade-up">
                     <Image
-                        src="/home/400x400_white.png"
+                        src="/home/touch.jpg"
                         alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
@@ -66,20 +60,17 @@ const PopularProducts = () => {
                         className="popular_product_image"
                     />
                     <h5 className="popular_product_title">
-                        Purificadores de Agua
+                        Purificador de agua Ozono Touch
                     </h5>
                     <p className="popular_product_description">
-                        Contamos con equipos de última tecnología para la
-                        purificación de aguas/aire en tu casa, equipos modernos
-                        diseñados con los más altos estándares para garantizar
-                        un alto desempeño.
+                        Purificador de agua, con panel táctil vitrificado, capacidad de purificación 50 L/H
                     </p>
-                    <ButtonWater text="Conoce más" />
+                    <ButtonWater text="Comprar" isExternal={true} href="https://wa.me/573233642951" />
                 </div>
 
                 <div className="popular_product" data-aos="fade-up">
                     <Image
-                        src="/home/400x400_white.png"
+                        src="/home/inox.jpg"
                         alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
@@ -87,20 +78,17 @@ const PopularProducts = () => {
                         className="popular_product_image"
                     />
                     <h5 className="popular_product_title">
-                        Purificadores de Agua
+                        Purificador de agua Ozono Inox
                     </h5>
                     <p className="popular_product_description">
-                        Contamos con equipos de última tecnología para la
-                        purificación de aguas/aire en tu casa, equipos modernos
-                        diseñados con los más altos estándares para garantizar
-                        un alto desempeño.
+                        Purificador de agua, con panel en acero inoxidable, capacidad de purificación 120 L/H
                     </p>
-                    <ButtonWater text="Conoce más" />
+                    <ButtonWater text="Comprar" isExternal={true} href="https://wa.me/573233642951" />
                 </div>
 
                 <div className="popular_product" data-aos="fade-up">
                     <Image
-                        src="/home/400x400_white.png"
+                        src="/home/white.jpg"
                         alt="producto_ozonos"
                         objectPosition="right"
                         width={400}
@@ -108,15 +96,12 @@ const PopularProducts = () => {
                         className="popular_product_image"
                     />
                     <h5 className="popular_product_title">
-                        Purificadores de Agua
+                        Purificador de agua Vitro White
                     </h5>
                     <p className="popular_product_description">
-                        Contamos con equipos de última tecnología para la
-                        purificación de aguas/aire en tu casa, equipos modernos
-                        diseñados con los más altos estándares para garantizar
-                        un alto desempeño.
+                        Purificador de agua, con panel frontal vitrificado, capacidad de purificación 50 L/H
                     </p>
-                    <ButtonWater text="Conoce más" />
+                    <ButtonWater text="Comprar" isExternal={true} href="https://wa.me/573233642951" />
                 </div>
             </div>
         </div>

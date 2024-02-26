@@ -1,16 +1,13 @@
-
 @import '../../mixins/mixins';
 @import '../../base/variables';
 
-
-.services{
-
+.services {
     padding-left: 4rem;
     padding-right: 4rem;
     max-width: 1200px;
     margin: 0 auto;
 
-    .services_title{
+    .services_title {
         font-size: 3rem;
         font-family: 'Montserrat', sans-serif;
         text-align: start;
@@ -23,18 +20,16 @@
         margin-top: 7rem;
     }
 
-    .services_subtitle{
-
-            font-size: 1.7rem;
-            font-family: "Noto Serif", serif;
-            text-align: start;
-            color: #3b90ad;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            text-shadow: #003373;
-            text-align: center;
-            margin-top: 2rem;
-        
+    .services_subtitle {
+        font-size: 1.7rem;
+        font-family: 'Noto Serif', serif;
+        text-align: start;
+        color: #3b90ad;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-shadow: #003373;
+        text-align: center;
+        margin-top: 2rem;
     }
 
     .services_container {
@@ -45,24 +40,32 @@
         justify-content: center;
         align-items: center;
 
-        @include media-query(tablet) { // $desktop: 992px
+        @include media-query(tablet) {
+            // $desktop: 992px
             flex-direction: row;
             justify-content: center;
             gap: 6rem;
             flex-wrap: wrap;
         }
 
-        .service{
+        .service {
             max-width: 300px;
 
-            .service_image{
+            .service_image {
                 width: 300px;
                 height: 300px;
                 border-radius: 10px;
                 margin-bottom: 2rem;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all 1s ease;
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+                }
             }
 
-            .service_title{
+            .service_title {
                 font-size: 2rem;
                 font-family: 'Montserrat', sans-serif;
                 color: #003373;
@@ -71,8 +74,8 @@
                 text-shadow: #003373;
                 text-align: center;
             }
-            
-            .service_description{
+
+            .service_description {
                 font-size: 1.6rem;
                 font-family: 'Poppins', sans-serif;
                 color: #515151;
@@ -81,7 +84,7 @@
                 text-align: center;
             }
 
-            .button_water_container{
+            .button_water_container {
                 position: relative;
                 top: auto;
                 left: auto;
@@ -90,7 +93,7 @@
                 transform: none;
                 padding-left: 20px;
 
-                button{
+                button {
                     margin: 0 auto;
                 }
             }

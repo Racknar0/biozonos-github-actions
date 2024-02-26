@@ -19,4 +19,25 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
+
+    .life_text {
+        font-size: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+        color: #515151;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        width: 25rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+
+        &::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #3e919f;
+            margin-top: 1rem;
+
+        }
+    }
 }

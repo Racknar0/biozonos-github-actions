@@ -146,7 +146,7 @@
             gap: 2rem;
             margin-top: 2rem;
             flex-direction: column;
-            padding-bottom: 5rem;
+            margin-bottom: 2rem;
 
             @include media-query(tablet) {
                 flex-direction: row;
@@ -164,6 +164,44 @@
 
                 &:hover {
                     color: #3b90ad;
+                }
+            }
+        }
+
+        .rights_container{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+
+            .rights{
+                font-size: 1.3rem;
+                font-family: 'Montserrat', sans-serif;
+                color: #eafcfc;
+                text-decoration: none;
+                letter-spacing: 1px;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+
+            .developer{
+                font-size: 1.3rem;
+                font-family: 'Montserrat', sans-serif;
+                color: #eafcfc;
+                text-decoration: none;
+                letter-spacing: 1px;
+                font-weight: 300;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-bottom: 2rem;
+
+                a {
+                    color: rgb(170, 255, 0);
+                    text-decoration: none;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: #3b90ad;
+                    }
                 }
             }
         }
