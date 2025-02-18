@@ -109,4 +109,8 @@ body {
         max-width: 700px;
         margin: 0 auto;
     }
+
+    .swal2-container{
+        z-index: 9999;
+    }
 }

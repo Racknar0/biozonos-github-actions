@@ -18,7 +18,7 @@ const PopularProducts = () => {
                     <Image
                         src="/home/bugia.jpg"
                         alt="producto_ozonos"
-                        objectPosition="right"
+                       // objectPosition="right"
                         width={400}
                         height={400}
                         className="popular_product_image"
@@ -36,7 +36,7 @@ const PopularProducts = () => {
                     <Image
                         src="/home/gravedad.jpg"
                         alt="producto_ozonos"
-                        objectPosition="right"
+                       // objectPosition="right"
                         width={400}
                         height={400}
                         className="popular_product_image"
@@ -54,7 +54,7 @@ const PopularProducts = () => {
                     <Image
                         src="/home/touch.jpg"
                         alt="producto_ozonos"
-                        objectPosition="right"
+                       // objectPosition="right"
                         width={400}
                         height={400}
                         className="popular_product_image"
@@ -72,7 +72,7 @@ const PopularProducts = () => {
                     <Image
                         src="/home/inox.jpg"
                         alt="producto_ozonos"
-                        objectPosition="right"
+                       // objectPosition="right"
                         width={400}
                         height={400}
                         className="popular_product_image"
@@ -90,7 +90,7 @@ const PopularProducts = () => {
                     <Image
                         src="/home/white.jpg"
                         alt="producto_ozonos"
-                        objectPosition="right"
+                      //  objectPosition="right"
                         width={400}
                         height={400}
                         className="popular_product_image"

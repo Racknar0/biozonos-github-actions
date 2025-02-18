@@ -83,11 +83,12 @@ const Footer = () => {
                         <Link href="/nosotros" className='link'>Nosotros</Link>
                         <Link href="/servicios" className='link'>Servicios</Link>
                         <Link href="/contacto" className='link'>Contacto</Link>
+                        <Link href="/auth" className='link'>Admin</Link>
                 </div>
 
                 <div className='rights_container'>
                     <p className='rights'>
-                        © 2024 Biozonos - Ozonos Sogamoso. Todos los derechos reservados.
+                        © 2024 Biozonos - Ozonos Duitama. Todos los derechos reservados.
                     </p>
                     <p className='developer'>
                         Desarrollado por{' '}

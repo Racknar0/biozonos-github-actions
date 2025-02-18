@@ -7,6 +7,9 @@ import { whatsapp } from 'react-icons-kit/fa/whatsapp';
 import { location } from 'react-icons-kit/icomoon/location';
 import { phone } from 'react-icons-kit/icomoon/phone';
 import {ic_alternate_email} from 'react-icons-kit/md/ic_alternate_email'
+import NavBar from '../layout/navbar/navbar';
+import Footer from '../layout/footer/Footer';
+import BtnWhsatpp from '../components/BtnWhsatpp/BtnWhsatpp';
 
 
 export const metadata = {
@@ -16,6 +19,8 @@ export const metadata = {
 
 const page = () => {
     return (
+        <>
+        <NavBar />
         <div className="contacto_main_container">
             <Breadcrumbs link="/contacto" nombre="Contacto" />
 
@@ -26,7 +31,7 @@ const page = () => {
 
                 <h3 className='position-absolute opacity-0'>Telefono Biozonos: 3233642951</h3>
                 <h3 className='position-absolute opacity-0'>Correo Biozonos: biozonosco@gmail.com </h3>
-                <h3 className='position-absolute opacity-0'>Dirección Biozonos: Cra 26 # 6A – 26, Sogamoso – Boyaca</h3>
+                <h3 className='position-absolute opacity-0'>Dirección Biozonos: Carrera 27 # 6a- 05, Duitama – Boyaca</h3>
 
                 <p className="subtitle mb-4">¡Estamos aquí para ayudarte!</p>
 
@@ -40,8 +45,7 @@ const page = () => {
                     </li>
 
                     <li className="info">
-                        <Icon size={25} icon={location} /> Cra 26 # 6A – 26,
-                        Sogamoso – Boyaca
+                        <Icon size={25} icon={location} /> Carrera 27 # 6a- 05, Duitama – Boyaca
                     </li>
 
                     
@@ -73,6 +77,7 @@ const page = () => {
 
             </div>
         </div>
+        </>
     );
 };
 

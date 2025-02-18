@@ -23,7 +23,7 @@ const page = () => {
                 </div>
 
                 <p className="description" data-aos="fade-up">
-                    BIOZONOS una empresa creada en la ciudad de Sogamoso, Boyacá
+                    BIOZONOS una empresa creada en la ciudad de Duitama, Boyacá
                     dedicada a la fabricación y prestación de servicios de
                     mantenimientos y reparaciones de equipos purificadores de
                     agua con base en ozono.

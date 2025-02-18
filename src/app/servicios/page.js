@@ -7,7 +7,7 @@ import ButtonWater from '../components/button/ButtonWater';
 
 export const metadata = {
     title: "Biozonos | Servicios",
-    description: "Purificadores de Agua y filtros de ozono en Sogamoso, Duitama, Tunja y Boyacá",
+    description: "Purificadores de Agua y filtros de ozono en Duitama, Sogamoso, Tunja y Boyacá",
   };
 
 const page = () => {
@@ -39,7 +39,7 @@ const page = () => {
                     Nuestros servicios
                 </h2>
                 <p className="standard_text_section text-center">
-                    En BIOZONOS, en Sogamoso, Boyacá, nos especializamos en
+                    En BIOZONOS Duitama, Boyacá, nos especializamos en
                     ofrecer una gama completa de servicios para la purificación
                     del agua y el tratamiento del aire. Desde la fabricación de
                     plantas de purificación hasta la instalación de sistemas de
