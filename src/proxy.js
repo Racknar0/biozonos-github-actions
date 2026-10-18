@@ -1,9 +1,8 @@
 import { NextResponse } from 'next/server';
-import { cookies } from 'next/headers';
 import { verifyJWT } from './app/utils/jwt';
 
-export async function middleware(req) {
-  const cookie = cookies().get('cookieAuth')?.value;
+export async function proxy(req) {
+  const cookie = req.cookies.get('cookieAuth')?.value;
   const url = req.nextUrl.pathname;
   console.log("url", url);
 

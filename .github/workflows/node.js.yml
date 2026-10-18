@@ -4,8 +4,9 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "master" ]
+  # Desactivado (18-oct-2026): el sitio se movió a LOSRONES y el runner del VPS viejo está apagado.
+  # Para desplegar: ssh losrones y luego /srv/biozonos/deploy.sh
+  workflow_dispatch:
 
 jobs:
   build:

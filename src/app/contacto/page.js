@@ -1,6 +1,6 @@
 import Breadcrumbs from '../components/breadcumbs/Breadcumbs';
 import '../scss/pages/contacto/contacto.scss';
-import { Icon } from 'react-icons-kit';
+import { Icon } from '../components/KitIcon/KitIcon';
 import { ic_facebook } from 'react-icons-kit/md/ic_facebook';
 import { instagram } from 'react-icons-kit/fa/instagram';
 import { whatsapp } from 'react-icons-kit/fa/whatsapp';

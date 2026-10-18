@@ -27,6 +27,16 @@ export default function RootLayout({ children }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 />
+                {/* Fuente del botón "Contactanos". Antes iba con @import en button-water.css;
+                    Turbopack (Next 16) descarta esos @import. Poppins/Montserrat/Noto Serif/Londrina
+                    también estaban con @import pero nunca llegaron a cargar en producción, así que
+                    no se añaden para que el sitio se vea igual que antes. */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900"
+                />
             </head>
             <AOSImport />
             <body className={inter.className}>

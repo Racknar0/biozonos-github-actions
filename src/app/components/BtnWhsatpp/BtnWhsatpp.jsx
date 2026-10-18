@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../scss/components/btn-whsatpp.scss'
 import {whatsapp} from 'react-icons-kit/fa/whatsapp'
-import { Icon } from 'react-icons-kit'
+import { Icon } from '../KitIcon/KitIcon'
 
 const BtnWhsatpp = () => {
   return (
