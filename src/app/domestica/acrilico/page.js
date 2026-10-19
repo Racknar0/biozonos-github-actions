@@ -1,7 +1,7 @@
 import ProductLine from '../../components/site/ProductLine';
 
 export const metadata = {
-    title: 'Biozonos | Acricílico',
+    title: 'Biozonos | Acrílico',
     description:
         'Purificadores de Agua y filtros de ozono en Duitama, Sogamoso, Tunja y Boyacá',
 };

@@ -14,7 +14,7 @@ const features = {
     'La serie Touch Technology en purificadores de agua, con panel touch frontal alto higiene “Requisito INVIMA” satisface todas las necesidades El agua ozonizada cuenta con muchos beneficios para la salud.',
     'Estos equipos son ideales para la purificación de agua en tu hogar, con la más alta tecnología y los más altos estándares de calidad, garantizamos un alto desempeño en nuestros equipos.',
   ],
-  items: ['Capacidad de purificación de 10 litros por minuto', 'Material de alta calidad en acrílico', 'Fácil instalación', 'Fácil mantenimiento', 'Diseño moderno'],
+  items: ['Capacidad de purificación de 10 litros por minuto', 'Panel de cristal con botón táctil', 'Fácil instalación', 'Fácil mantenimiento', 'Diseño moderno'],
 };
 
 export default function TouchPage() {

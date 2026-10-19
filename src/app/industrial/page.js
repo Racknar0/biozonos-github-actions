@@ -16,7 +16,7 @@ const systems = [
 
 const showcase = [
     { title: 'BEBEDERO COLLEGE DE 25 LITROS – 2 SALIDAS D2L25', images: ['/industrial/25L_2salidas.jpg', '/industrial/25L_2salidas_2.jpg'], size: [767, 1024] },
-    { title: 'BEBEDERO COLLEGE DE 50 LITROS – 4 SALIDAS D4L50', images: ['/industrial/25L_4salidas_1.jpg', '/industrial/25L_4salidas_2.jpg'], size: [593, 861] },
+    { title: 'BEBEDERO COLLEGE DE 25 LITROS – 4 SALIDAS D4L25', images: ['/industrial/25L_4salidas_1.jpg', '/industrial/25L_4salidas_2.jpg'], size: [593, 861] },
     { title: 'BEBEDERO COLLEGE DE 50 LITROS – 4 SALIDAS D4L50', images: ['/industrial/50L.jpg', '/industrial/50L_2.jpg'], size: [1024, 576], wide: true },
 ];
 
