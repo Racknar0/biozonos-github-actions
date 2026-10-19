@@ -5,21 +5,21 @@ import GalleryComponent from '@/app/components/gallery/GalleryComponent'
 
 const images = [
   {
-    original: "/products/vitro/vitro_black.jpg",
-    thumbnail: "/products/vitro/vitro_black.jpg",
+    original: "/products/vitro/vitro_black.png",
+    thumbnail: "/products/vitro/vitro_black.png",
     thumbnailAlt: 'Vitro Black',
     thumbnailClass: 'thumbnail',
   },
   {
-    original: "/products/vitro/vitro_white.jpg",
-    thumbnail: "/products/vitro/vitro_white.jpg",
+    original: "/products/vitro/vitro_white.png",
+    thumbnail: "/products/vitro/vitro_white.png",
     thumbnailAlt: 'Vitro White',
     thumbnailClass: 'thumbnail',
   }
   ,
   {
-    original: "/products/vitro/vitro_stone.jpg",
-    thumbnail: "/products/vitro/vitro_stone.jpg",
+    original: "/products/vitro/vitro_stone.png",
+    thumbnail: "/products/vitro/vitro_stone.png",
     thumbnailAlt: 'Vitro Stone',
     thumbnailClass: 'thumbnail',
   }

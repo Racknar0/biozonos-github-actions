@@ -13,32 +13,26 @@ export const metadata = {
 const page = () => {
     const images = [
         {
-            original: '/products/inox/vitro-inox.jpg',
-            thumbnail: '/products/inox/vitro-inox.jpg',
+            original: '/products/inox/vitro-inox.png',
+            thumbnail: '/products/inox/vitro-inox.png',
             thumbnailAlt: 'Vitro Inox',
             thumbnailClass: 'thumbnail',
         },
         {
-            original: '/products/inox/inox-g.jpg',
-            thumbnail: '/products/inox/inox-g.jpg',
+            original: '/products/inox/inox-g.png',
+            thumbnail: '/products/inox/inox-g.png',
             thumbnailAlt: 'Inox G',
             thumbnailClass: 'thumbnail',
         },
         {
-            original: '/products/inox/inox-m.jpg',
-            thumbnail: '/products/inox/inox-m.jpg',
+            original: '/products/inox/inox-m.png',
+            thumbnail: '/products/inox/inox-m.png',
             thumbnailAlt: 'Inox M',
             thumbnailClass: 'thumbnail',
         },
         {
-            original: '/products/inox/inox-c.jpg',
-            thumbnail: '/products/inox/inox-c.jpg',
-            thumbnailAlt: 'Inox C',
-            thumbnailClass: 'thumbnail',
-        },
-        {
-            original: '/products/inox/miniacero.png',
-            thumbnail: '/products/inox/miniacero.png',
+            original: '/products/inox/inox-c.png',
+            thumbnail: '/products/inox/inox-c.png',
             thumbnailAlt: 'Inox C',
             thumbnailClass: 'thumbnail',
         },

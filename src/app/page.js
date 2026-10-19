@@ -10,7 +10,7 @@ import './scss/pages/home/separator.scss';
 //repairing
 import './scss/pages/home/repairing.scss';
 import Repairing from './components/home/Repairing';
-import PopularProducts from './components/home/PopularProducts';
+import PopularProducts, { FilterCatalog } from './components/home/PopularProducts';
 import NavBar from './layout/navbar/navbar';
 import Footer from './layout/footer/Footer';
 import BtnWhsatpp from './components/BtnWhsatpp/BtnWhsatpp';
@@ -32,16 +32,20 @@ export default function Home() {
                     overflow: 'hidden',
                 }}
             >
-                <h1 className="main_title title_section">
-                    Purificadores de Agua y filtros de ozono en Duitama,
-                    Sogamoso, Tunja y Boyacá
-                </h1>
-                <ButtonWater
-                    text="Contactanos"
-                    isExternal={true}
-                    href="https://wa.me/573233642951"
-                />
-                <Hero />
+                <section className="home_hero" aria-labelledby="home-title">
+                    <h1 id="home-title" className="main_title title_section">
+                        Purificadores de Agua y filtros de ozono en Duitama,
+                        Sogamoso, Tunja y Boyacá
+                    </h1>
+                    <ButtonWater
+                        text="Contactanos"
+                        isExternal={true}
+                        href="https://wa.me/573233642951"
+                    />
+                    <Hero />
+                </section>
+                <PopularProducts />
+                <FilterCatalog />
                 <IntroContainer />
                 <Services />
                 <div className="separator_container">
@@ -54,7 +58,6 @@ export default function Home() {
                     />
                 </div>
                 <Repairing />
-                <PopularProducts />
                 <p className="life_text text-center fw-bold" data-aos="fade-up">
                     Vive bien, Bebe sano.❤️
                 </p>

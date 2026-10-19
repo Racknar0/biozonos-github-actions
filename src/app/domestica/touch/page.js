@@ -5,8 +5,8 @@ import GalleryComponent from '@/app/components/gallery/GalleryComponent'
 
 const images = [
   {
-    original: "/products/touch/touch.jpg",
-    thumbnail: "/products/touch/touch.jpg",
+    original: "/products/touch/touch.png",
+    thumbnail: "/products/touch/touch.png",
     thumbnailAlt: 'Touch',
     thumbnailClass: 'thumbnail',
   }

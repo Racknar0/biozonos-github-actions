@@ -4,7 +4,6 @@ import { verifyJWT } from './app/utils/jwt';
 export async function proxy(req) {
   const cookie = req.cookies.get('cookieAuth')?.value;
   const url = req.nextUrl.pathname;
-  console.log("url", url);
 
   const protectedRoutes = ['/dashboard'];
   const loginUrl = new URL('/auth', req.url);
@@ -13,8 +12,7 @@ export async function proxy(req) {
   // Verifica si la ruta actual está protegida
   if (protectedRoutes.includes(url)) {
     try {
-      const token = await verifyJWT(cookie);
-      console.log('token', token);
+      await verifyJWT(cookie);
       // Token is valid, continue to the protected route
       return NextResponse.next();
     } catch (error) {
@@ -27,8 +25,7 @@ export async function proxy(req) {
     // Verifica si el usuario está intentando acceder a la página de autenticación
     if (url === '/auth') {
       try {
-        const token = await verifyJWT(cookie);
-        console.log('token', token);
+        await verifyJWT(cookie);
         // Si el token es válido, redirige a la página del dashboard
         return NextResponse.redirect(dashboardUrl);
       } catch (error) {
