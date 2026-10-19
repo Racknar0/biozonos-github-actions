@@ -1,96 +1,27 @@
-import Breadcrumbs from '../../components/breadcumbs/Breadcumbs';
-import Image from 'next/image';
-import '../../scss/pages/domestica/acrilico.scss';
-import GalleryComponent from '@/app/components/gallery/GalleryComponent';
-
-
+import ProductLine from '../../components/site/ProductLine';
 
 export const metadata = {
-  title: "Biozonos | Acero Inoxidable",
-  description: "Purificadores de Agua y filtros de ozono en Duitama, Sogamoso, Tunja y Boyacá",
+    title: "Biozonos | Acero Inoxidable",
+    description: "Purificadores de Agua y filtros de ozono en Duitama, Sogamoso, Tunja y Boyacá",
 };
 
-const page = () => {
-    const images = [
-        {
-            original: '/products/inox/vitro-inox.png',
-            thumbnail: '/products/inox/vitro-inox.png',
-            thumbnailAlt: 'Vitro Inox',
-            thumbnailClass: 'thumbnail',
-        },
-        {
-            original: '/products/inox/inox-g.png',
-            thumbnail: '/products/inox/inox-g.png',
-            thumbnailAlt: 'Inox G',
-            thumbnailClass: 'thumbnail',
-        },
-        {
-            original: '/products/inox/inox-m.png',
-            thumbnail: '/products/inox/inox-m.png',
-            thumbnailAlt: 'Inox M',
-            thumbnailClass: 'thumbnail',
-        },
-        {
-            original: '/products/inox/inox-c.png',
-            thumbnail: '/products/inox/inox-c.png',
-            thumbnailAlt: 'Inox C',
-            thumbnailClass: 'thumbnail',
-        },
-    ];
+const products = [
+    ['Vitro Inox', '/products/inox/vitro-inox.png'],
+    ['Inox G', '/products/inox/inox-g.png'],
+    ['Inox M', '/products/inox/inox-m.png'],
+    ['Inox C', '/products/inox/inox-c.png'],
+];
 
-    return (
-        <div className="acrilico_main_container">
-            <Breadcrumbs link="/domestica/inox" nombre="Acero Inoxidable" />
-            <div className="hero_container">
-                <div className="overlay"></div>
-                <Image
-                    src="/products/cocina_inox.png"
-                    alt="imagen_cocina"
-                    width={1920}
-                    height={581}
-                    className="image"
-                />
-                <div className="hero_text">
-                    <h1 className="hero_title">Equipos en Acero Inoxidable</h1>
-                    <p className="hero_description">
-                        Descubre la pureza del agua con nuestros equipos de
-                        purificación en acero inoxidable. Con un diseño elegante
-                        y duradero, nuestro equipo garantiza una purificación
-                        eficaz y confiable. Disfruta de agua limpia y fresca en
-                        tu hogar o empresa con nuestra solución moderna y de
-                        alta calidad
-                    </p>
-                </div>
-            </div>
-            <div className="gallery_container">
-                <GalleryComponent images={images} />
-            </div>
-            <div className="characteristic_container">
-                <h2 className="characteristic_title">Características</h2>
-                <p className="characteristic_description">
-                    La serie Acero en purificadores de agua, semi industriales
-                    Vitro de alto higiene “Requisito INVIMA” satisface todas las
-                    necesidades El agua ozonizada cuenta con muchos beneficios
-                    para la salud.
-                </p>
-                <p className="characteristic_description">
-                    Estos equipos son ideales para la purificación de agua en tu
-                    hogar, con la más alta tecnología y los más altos estándares
-                    de calidad, garantizamos un alto desempeño en nuestros
-                    equipos.
-                </p>
-                <p className="characteristic">
-                    - Capacidad de purificación de 10 litros por minuto
-                </p>
-                <p className="characteristic">
-                    - Material de alta calidad en acero inoxidable
-                </p>
-                <p className="characteristic">- Fácil instalación</p>
-                <p className="characteristic">- Fácil mantenimiento</p>
-                <p className="characteristic">- Diseño moderno</p>
-            </div>
-        </div>
-    );
+const features = {
+    paragraphs: [
+        'La serie Acero en purificadores de agua, semi industriales Vitro de alto higiene “Requisito INVIMA” satisface todas las necesidades El agua ozonizada cuenta con muchos beneficios para la salud.',
+        'Estos equipos son ideales para la purificación de agua en tu hogar, con la más alta tecnología y los más altos estándares de calidad, garantizamos un alto desempeño en nuestros equipos.',
+    ],
+    items: ['Capacidad de purificación de 10 litros por minuto', 'Material de alta calidad en acero inoxidable', 'Fácil instalación', 'Fácil mantenimiento', 'Diseño moderno'],
 };
 
-export default page;
+export default function InoxPage() {
+    return <ProductLine crumb="Acero Inoxidable" href="/domestica/inox" title={<>Equipos en <em>Acero Inoxidable</em></>}
+        intro="Descubre la pureza del agua con nuestros equipos de purificación en acero inoxidable. Con un diseño elegante y duradero, nuestro equipo garantiza una purificación eficaz y confiable. Disfruta de agua limpia y fresca en tu hogar o empresa con nuestra solución moderna y de alta calidad"
+        image="/products/cocina_inox.png" products={products} features={features} />;
+}

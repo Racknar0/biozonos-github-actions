@@ -1,14 +1,5 @@
-import BtnWhsatpp from "../components/BtnWhsatpp/BtnWhsatpp";
-import Footer from "../layout/footer/Footer";
-import NavBar from "../layout/navbar/navbar";
+import SiteShell from '../components/site/SiteShell';
 
 export default function ContactoLayout({ children }) {
-    return (
-        <>
-            <NavBar />
-            {children}
-            <BtnWhsatpp />
-            <Footer />
-        </>
-    );
+    return <SiteShell>{children}</SiteShell>;
 }

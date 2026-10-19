@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import '../../scss/pages/home/popular_products.scss';
-import '../../scss/components/button-water.css';
+import ProductPreview from './ProductPreview';
 
 const lines = [
     {
@@ -51,24 +51,21 @@ const filters = [
     ['Equipo de purificación de gravedad', '/products/gravedad/gravedad.png'],
 ];
 
-function ProductCard({ product, href, eager }) {
+export function ProductCard({ product, eager }) {
     const [name, image] = product;
     const photo = <Image src={image} alt={name} width={1024} height={1300}
         sizes="(min-width: 1200px) 270px, (min-width: 992px) 25vw, (min-width: 768px) 33vw, calc(100vw - 32px)"
         loading={eager ? 'eager' : 'lazy'} className="catalog_product_image" />;
 
     return (
-        <article className="catalog_product">
-            {href ? (
-                <Link href={href} prefetch={false} className="catalog_product_photo" aria-label={'Ver ' + name}>{photo}</Link>
-            ) : <div className="catalog_product_photo">{photo}</div>}
+        <article className="catalog_product" data-scroll-card>
+            <ProductPreview name={name} image={image}>{photo}</ProductPreview>
             <div className="catalog_product_body">
                 <a href={'https://wa.me/573233642951?text=' + encodeURIComponent('Hola, me interesa ' + name + '. Quisiera más información.')}
-                    target="_blank" rel="noopener noreferrer" className="button-water catalog_buy"
-                    style={{ '--content': "'Más Info!'" }} aria-label={'Comprar ' + name}>
-                    <span className="left" aria-hidden="true" />
+                    target="_blank" rel="noopener noreferrer" className="catalog_buy"
+                    aria-label={'Comprar ' + name}>
                     Comprar
-                    <span className="right" aria-hidden="true" />
+                    <span aria-hidden="true">↗</span>
                 </a>
             </div>
         </article>
@@ -77,20 +74,20 @@ function ProductCard({ product, href, eager }) {
 
 export default function PopularProducts() {
     return (
-        <section className="home_catalog popular_products" id="catalogo" aria-labelledby="catalog-title">
+        <section className="home_catalog popular_products" id="catalogo" data-surface="light" aria-labelledby="catalog-title">
             <header className="catalog_header">
                 <h2 id="catalog-title" className="title_section">Productos Populares</h2>
                 <p className="subtitle_section">Productos que más solicitan nuestros clientes</p>
             </header>
             {lines.map(line => (
-                <section key={line.id} id={'linea-' + line.id} className="catalog_line"
+                <section key={line.id} id={'linea-' + line.id} className="catalog_line" data-catalog-scene
                     aria-labelledby={'catalog-heading-' + line.id}>
                     <h3 id={'catalog-heading-' + line.id} className="title_small catalog_line_title">
-                        <Link href={line.href} prefetch={false}>{line.label}</Link>
+                        <Link href={line.href} prefetch={false}>{line.label}<span aria-hidden="true">↗</span></Link>
                     </h3>
                     <div className={'catalog_grid' + (line.products.length === 1 ? ' catalog_grid_single' : '')}>
                         {line.products.map((product, index) => (
-                            <ProductCard key={product[1]} product={product} href={line.href}
+                            <ProductCard key={product[1]} product={product}
                                 eager={line.id === 'acrilico' && index < 2} />
                         ))}
                     </div>
@@ -102,9 +99,10 @@ export default function PopularProducts() {
 
 export function FilterCatalog() {
     return (
-        <section className="home_catalog filter_catalog" id="filtros" aria-labelledby="filter-title">
+        <section className="home_catalog filter_catalog" id="filtros" data-surface="light" aria-labelledby="filter-title">
             <header className="catalog_header">
-                <h2 id="filter-title" className="title_section">Reemplazo de filtros y filtros de gravedad</h2>
+                <h2 id="filter-title" className="title_section">Repuestos y filtros de gravedad</h2>
+                <p className="subtitle_section">Mantén tu equipo funcionando como el primer día con repuestos originales.</p>
             </header>
             <div className="catalog_grid catalog_grid_filters">
                 {filters.map(product => <ProductCard key={product[1]} product={product} />)}
