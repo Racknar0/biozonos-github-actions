@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import { AppWrapper } from './context';
 import BootstrapImport from './imports/BootstrapImport';
 import AOSImport from './imports/AOSImport';
@@ -9,6 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/index.scss';
 
 const inter = Inter({ subsets: ['latin'] });
+
+// Google Analytics 4 (propiedad "Biozonos", flujo "Biozonos web").
+const GA_ID = 'G-BBNXG98JYF';
 
 export const metadata = {
     title: 'Biozonos | Inicio',
@@ -45,6 +49,16 @@ export default function RootLayout({ children }) {
                     {children}
                     <BootstrapImport />
                 </AppWrapper>
+                <Script
+                    src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+                    strategy="afterInteractive"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+                </Script>
             </body>
         </html>
     );
